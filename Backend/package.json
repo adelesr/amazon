@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "nodemon app.js",
+  "type": "module",
+  "dependencies": {
+    "compress-buffer": "^1.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "hiredis": "^0.1.17",
+    "iconv": "^2.0.6",
+    "pg": "^8.13.3",
+    "stacktrace": "^1.1.0"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
